@@ -21,6 +21,6 @@ $headers = 'From: '.RESET_PSW_EMAIL . "\r\n" .
 		'Reply-To: '.RESET_PSW_EMAIL . "\r\n" .
 		'Content-type: text/plain; charset=UTF-8' . "\r\n" .
 		'X-Mailer: PHP/' . phpversion();
-		mail($email, PSW_RESET_MAIL_TITLE,PSW_RESET_MAIL_TEXT. $password, $headers);
+		mail($email, PSW_RESET_MAIL_TITLE,PSW_RESET_MAIL_TEXT." ".$password, $headers);
 mysqli_close($db);
 exit_message(PSW_RESET_NOTICE);
