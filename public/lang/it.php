@@ -124,7 +124,6 @@ define('PSW_RESET_CONFIRM',"Invia richiesta");
 define('PSW_RESET_MAIL_TITLE',"Reset Password - ".SITE_NAME);
 define('PSW_RESET_MAIL_TEXT',"Ciao,\n Hai richiesto un recupero password del tuo account su ".SITE_NAME.". La tua nuova password è");
 define('PSW_RESET_NOTICE',"Una nuova password ti è stata inviata via email");
-define('PSW_CHANGED',"Password cambiata");
 //Change Password
 define('CHANGE_PASSWORD',"Cambia password");
 define('ACCOUNT_PAGE_PASSWORD_TITLE',"Cambia Password");
