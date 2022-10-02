@@ -83,6 +83,7 @@ if ($size > ALLOWED_SIZE)
 	// file is too big
 	exit_message(TOO_BIG_FILE);
 }
+$ext = strtolower($ext);
 // size is OK, make sure EXT is allowed
 if (!in_array($ext, $allowed_ext))
 {
